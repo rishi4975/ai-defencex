@@ -1,0 +1,5 @@
+# System dependencies used in project
+Wazuh Server
+Suricata IDS
+Ubuntu Server
+Python 3
