@@ -1,17 +1,19 @@
 # AIdefenceX
 
-AI-based Intrusion Detection / Prevention System
+AI-based Intrusion Detection / Prevention System using Suricata, Wazuh, and Machine Learning.
 
 ## Features
 
-- Threat Detection
-- Attack Classification
-- Real-time Monitoring
-- IDS/IPS Alerts
+- Suricata network intrusion detection
+- Wazuh SIEM monitoring dashboard
+- Real-time rule-based threat detection
+- Automated email alerts when rules are triggered
+- Machine learning-based threat classification
+- Incident visibility and monitoring
 
 ## Tech Stack
 
-Machine learning-based cyber threat detection using Scikit-learn models
+Python, Wazuh, Suricata, Scikit-learn, Pandas
 
 ## Author
 
