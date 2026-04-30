@@ -1,6 +1,38 @@
-# AIdefenceX
+# 🛡️ AI-DefenceX ✅
 
 Wazuh-based Security Monitoring and Threat Detection project deployed on Ubuntu Server with Suricata integration and automated email alerts.
+
+## 🚀 Overview
+
+AI-powered security monitoring system using Wazuh and Suricata with automated threat detection and response.
+
+## 🧠 AI Detection Engine
+
+Custom Python-based anomaly detection system leveraging behavioral analysis and traffic pattern modeling:
+
+- Detects unusual traffic patterns
+- Identifies suspicious IP behavior
+- Supports automated threat scoring
+- Triggers response actions (alerts + IP blocking)
+
+This enhances traditional SIEM systems by introducing intelligent anomaly-based threat detection.
+
+## 🏗️ Architecture
+
+Distributed Systems → Tailscale (Secure Mesh VPN) → Suricata (IDS) → Wazuh (SIEM) → Python AI Detection Engine → Threat Detection → Alert Generation → Email Notification → Automated Response (IP Blocking via iptables)
+
+### 🔍 Detection Capabilities:
+- Port scanning detection
+- Brute force attack detection
+- DNS tunneling detection
+- Suspicious tools (nmap, sqlmap, hydra, metasploit)
+- File Integrity Monitoring (FIM)
+
+### ⚡ Automated Response:
+- Real-time alert generation
+- Email notifications
+- Automatic IP blocking using iptables
+- MITRE ATT&CK mapping
 
 ## Features
 
